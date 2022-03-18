@@ -4,6 +4,7 @@
     background-color: $color__background-main;
     border-radius: 5px;
     box-shadow: rgb(57, 68, 62) 1px -1px 10px;
+    color: rgb(255, 255, 255);
 }
 
 .formation {
@@ -53,10 +54,15 @@
 
 .cours__sigle {
     font-size: 1.2rem;
-    color: rgb(138, 83, 83);
+    color: rgb(255, 255, 255);
     margin: 0;
 }
 
 .cours__description {
     font-size: 1rem;
+    color: rgb(255, 255, 255);
+
+}
+.cours__contenu{
+    color: rgb(255, 255, 255);
 }

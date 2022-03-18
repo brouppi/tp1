@@ -351,15 +351,15 @@ html {
 /* ---------------------------------- */
 /* -----------------------------------*/
 a {
-  color: #7b5647;
+  color: white;
 }
 
 a:visited {
-  color: #5c4033;
+  color: #ff8585;
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: #deea2e;
 }
 
 a:focus {
@@ -371,15 +371,15 @@ a:hover, a:active {
 }
 
 .site__footer a {
-  color: #f40b0b;
+  color: white;
 }
 
 .site__footer a:visited {
-  color: #1435eb;
+  color: #ff8585;
 }
 
 .site__footer a:hover, .site__footer a:focus, .site__footer a:active {
-  color: #19e123;
+  color: #deea2e;
 }
 
 .site__footer a:focus {
@@ -391,15 +391,15 @@ a:hover, a:active {
 }
 
 .header__titre a {
-  color: #f06a6a;
+  color: white;
 }
 
 .header__titre a:visited {
-  color: #7a49d4;
+  color: #ff8585;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #8be58f;
+  color: #deea2e;
 }
 
 .header__titre a:focus {
@@ -461,9 +461,10 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #d5e6f1;
+  background-color: black;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
+  color: white;
 }
 
 .formation {
@@ -473,7 +474,7 @@ COMPOSANTES
 
 .formation__titre {
   font-size: 2rem;
-  color: #dbdff3;
+  color: white;
   margin: 10px 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -484,7 +485,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #d1e9ff;
+  background-color: white;
   box-shadow: #394044 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -508,26 +509,31 @@ COMPOSANTES
 
 .cours__titre {
   font-size: 1.5rem;
-  color: #dbdff3;
+  color: white;
   margin: 5px 0px;
 }
 
 .cours__sigle {
   font-size: 1.2rem;
-  color: #8a5353;
+  color: white;
   margin: 0;
 }
 
 .cours__description {
   font-size: 1rem;
+  color: white;
+}
+
+.cours__contenu {
+  color: white;
 }
 
 .site__header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6faee2;
-  color: #d6d8e4;
+  background-color: black;
+  color: white;
   padding-left: 10px;
 }
 
@@ -637,8 +643,8 @@ COMPOSANTES
 
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color: #07143b;
-  color: #e2e7f8;
+  background-color: black;
+  color: white;
   padding: 15px;
 }
 
@@ -679,11 +685,11 @@ COMPOSANTES
 }
 
 .footer__menu__nav__ul .menu-item a svg {
-  color: #f40b0b;
+  color: white;
 }
 
 .footer__menu__nav__ul .menu-item a:hover svg {
-  color: #19e123;
+  color: #deea2e;
 }
 
 .cours__contenu {
@@ -738,7 +744,7 @@ ANIMATION
   width: 100px;
   height: 100px;
   border-radius: 20%;
-  background-color: #1161f7;
+  background-color: white;
   color: #fff;
   font-size: 3rem;
   animation: anim-entete 1s forwards;
@@ -760,7 +766,7 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: rgba(218, 224, 241, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -773,29 +779,29 @@ theme name: Lab 2 Lemieux Florence
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #60b4eb;
+  background-color: black;
   z-index: -1;
   clip-path: polygon(87% 0, 100% 0, 100% 100%, 58% 100%);
 }
 
 .site__header {
   grid-area: header;
-  background-color: rgba(111, 174, 226, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .site__barre {
   grid-area: sidebar;
-  background-color: #051d29;
+  background-color: black;
 }
 
 .site__main {
   grid-area: main;
-  background-color: rgba(213, 230, 241, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: #07143b;
+  background-color: black;
 }
 
 /* configuration mobile */
