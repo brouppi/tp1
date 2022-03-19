@@ -9,7 +9,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
     <?php wp_head() ?>
     <?php show_admin_bar(true); ?>
 </head>
@@ -22,6 +24,7 @@
                 <?php bloginfo('name'); ?></h1>
             </a>
         <h2 class="header__description"><?php bloginfo('description'); ?></h2>
+        <h2 class="header__description">Rick Astley Experience</h2>
     </section>
     <section class="util">
         
