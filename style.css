@@ -651,12 +651,14 @@ COMPOSANTES
 
 .site__footer__colonne {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .site__footer__colonne section {
   flex: 0 0 30%;
-  border: 1px solid #aaa;
+  border: 12px solid #aaa;
+  margin: 2px;
 }
 
 .site__footer__ligne {
@@ -691,6 +693,12 @@ COMPOSANTES
 
 .footer__menu__nav__ul .menu-item a:hover svg {
   color: #deea2e;
+}
+
+@media screen and (min-width: 1100px) {
+  .site__footer__colonne {
+    flex-direction: row;
+  }
 }
 
 .cours__contenu {
@@ -735,7 +743,7 @@ ANIMATION
 --------------------------------------------------------- */
 .animation {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .animation__bloc {
@@ -748,15 +756,52 @@ ANIMATION
   background-color: white;
   color: #fff;
   font-size: 3rem;
-  animation: anim-entete 1s forwards;
+  margin: 10px;
 }
 
-@keyframes anim-entete {
+.animation__bloc__gauche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  background-color: white;
+  color: #fff;
+  font-size: 3rem;
+  margin: 10px;
+  animation: anim-entete-gauche 1s forwards;
+}
+
+.animation__bloc__droit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  background-color: white;
+  color: #fff;
+  font-size: 3rem;
+  margin: 10px;
+  animation: anim-entete-droit 1s forwards;
+}
+
+@keyframes anim-entete-gauche {
   0% {
-    transform: translateY(-100vh);
+    transform: translateX(-100vh);
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes anim-entete-droit {
+  0% {
+    transform: translateX(100vh);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 

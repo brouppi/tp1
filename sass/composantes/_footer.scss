@@ -6,10 +6,12 @@
 
     &__colonne { //.site__footer__colonne
         display :flex;
+        flex-direction: column;
         justify-content: space-between;
         section { //  .site__footer__colonne  section
           flex : 0 0 30%;
-          border : 1px solid #aaa;
+          border : 12px solid #aaa;
+          margin: 2px;
         }
         .footer__adresse{ //.site__footer__colonne .footer__adresse 
          }
@@ -62,5 +64,11 @@
           }
         }    
      }
+  }
+}
+
+@media screen and (min-width : $largeur__media--desktop){
+  .site__footer__colonne{
+    flex-direction: row;
   }
 }
