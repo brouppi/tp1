@@ -629,7 +629,7 @@ COMPOSANTES
 
 @media screen and (min-width: 800px) {
   .site #burger {
-    display: none;
+    display: block;
   }
   .site .menu-principal-container {
     display: block;

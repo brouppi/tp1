@@ -43,7 +43,7 @@
 
 @media screen and (min-width : $largeur__media--tablette){
    .site #burger {
-        display : none;
+        display : block;
     }
    .site .menu-principal-container {
         display : block;
